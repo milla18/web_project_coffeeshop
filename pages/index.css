@@ -52,7 +52,8 @@ header {
 }
 
 .header__title {
-  padding-top: 183px;
+  margin-top: 183px;
+  margin-bottom: 0;
   max-width: 709px;
   font-family: "Inter";
   font-style: normal;
@@ -61,18 +62,19 @@ header {
   line-height: 72px;
   letter-spacing: -1px;
   color: #000000;
-  padding: 80px;
+  margin-left: 80px;
 }
 
 .header__description {
-  padding-top: 28px;
+  margin-top: 28px;
   max-width: 683px;
-  margin-top: auto;
+
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  margin-left: 80px;
 }
 
 .header__span-accent {
@@ -98,7 +100,8 @@ header {
   display: flex;
   margin-top: auto;
   width: 100%;
-  padding: 80px 40px;
+  margin-left: 80px;
+  margin-bottom: 40px;
 }
 .header__paragraph {
   font-family: "Inter";
@@ -108,11 +111,11 @@ header {
   line-height: 20px;
   color: #838383;
 }
-.header__paragraph-header__address {
+.paragraph__adress {
   margin: auto;
-  margin-right: 90px;
+  margin-right: 80px;
+  margin-bottom: 40px;
   color: #838383;
-  padding: 0 0 40px 80px;
 }
 
 .recipes {
