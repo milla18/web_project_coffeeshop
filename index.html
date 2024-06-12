@@ -64,7 +64,7 @@
             <p class="header__paragraph">Sabado e Domingo (11:00 - 18:00)</p>
           </div>
 
-          <div class="paragraph__adress">
+          <div class="header__adress">
             <p class="header__paragraph">
               200 Success Avenue, a cidade de Triple Peaks
             </p>
@@ -114,11 +114,73 @@
             </div>
           </div>
         </section>
+        <!--formulario-->
         <section class="reservation" id="reservation">
-          <!--formulario-->
+          <h1 class="reservation__title">Reservar Uma mesa</h1>
+          <form class="reservation__form">
+            <fieldset class="reservation__fieldset">
+              <label for="text" class="form__label"
+                >Nome*
+                <input
+                  type="text"
+                  class="form__item form_item_el_text form-input"
+                  id="texto"
+                  name="texto"
+                  placeholder="Nome"
+                  required
+                />
+              </label>
+              <label for="number" class="form__label"
+                >Numero de convidados*
+                <input
+                  type="number"
+                  class="form__item form_item_el_number form-input"
+                  id="numero"
+                  name="numero"
+                  placeholder="1-8"
+                  min="1"
+                  max="8"
+                  required
+                />
+              </label>
+              <label for="datetime-local" class="form__label"
+                >Data e hora*
+
+                <input
+                  type="datetime-local"
+                  class="form__item form_item_el_datetime-local form-input"
+                  id="datahora"
+                  name="datahora"
+                  required
+                />
+              </label>
+              <label for="email" class="form__label"
+                >Seu e-mail*
+                <input
+                  type="email"
+                  class="form__item form_item_el_email form-input"
+                  id="email"
+                  name="email"
+                  placeholder="email@email.com"
+                  required
+                />
+              </label>
+              <button type="submit" class="form__button">
+                Reservar uma mesa
+              </button>
+              <label for="checkbox" class="form__label form_item_el_checkbox">
+                <input
+                  type="checkbox"
+                  class="form__checkbox"
+                  id="checkbox"
+                  name="nomecheckbox"
+                  value="valorcheckbox"
+                />Eu concordo com os termos de uso
+              </label>
+            </fieldset>
+          </form>
         </section>
       </main>
-
       <footer class="footer">
         <!--rodape da pagina-->
       </footer>
