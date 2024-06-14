@@ -259,7 +259,7 @@ header {
   opacity: 0.7;
 }
 
-.form__checkbox {
+.form__label_el_checkbox {
   flex-direction: row;
   align-items: center;
   justify-content: center;
