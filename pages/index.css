@@ -179,12 +179,11 @@ header {
   background-position: center;
   background-size: cover;
   height: 100vh;
+  padding: 100px 80px 120px;
 }
 
 .reservation__title {
-  margin: 0;
-  padding-top: 100px;
-  padding-bottom: 80px;
+  margin: 0 auto 80px;
   text-align: center;
   font-family: Inter;
   font-style: normal;
@@ -194,15 +193,22 @@ header {
 }
 
 .reservation__form {
+  margin: 0 auto;
+}
+
+.form {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 385px;
-  margin: auto;
 }
-.reservation__fieldset {
+
+.form__fieldset {
   border: none;
-  width: 100%;
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .form__label {
@@ -250,7 +256,7 @@ header {
   opacity: 0.7;
 }
 
-.form_item_el_checkbox {
+.form__item_el_checkbox {
   flex-direction: row;
   align-items: center;
   justify-content: center;
