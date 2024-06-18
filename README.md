@@ -6,6 +6,13 @@ Apresenta o café e a filosofia do site.
 Links para receitas, reservas, e formulários de contato.
 
 Receitas
+Apresenta alguns vídeos de receitas
+
+Formulário
+Apresenta um formulário para os clientes e preencher
+
+Contatos
+Para mas informações de suas redes sociais sobre o "café especial"
 
     Recursos avançados de HTML e CSS
     Estrutura básica do site.
