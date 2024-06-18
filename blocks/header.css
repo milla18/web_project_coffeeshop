@@ -1,0 +1,84 @@
+header {
+  min-height: 720px;
+  max-height: 800px;
+  background-color: #ffffff;
+  background-image: url(/images/files4/background_header.svg);
+  background-size: cover;
+  position: relative;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+/* da uma olhada aq */
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__title {
+  margin-top: 183px;
+  margin-bottom: 0;
+  max-width: 709px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
+  color: #000000;
+  margin-left: 80px;
+}
+
+.header__description {
+  margin-top: 28px;
+  max-width: 683px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 80px;
+}
+
+.header__span-accent {
+  display: block;
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__image {
+  width: 646px;
+  height: 568px;
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  z-index: 1;
+}
+
+.header__footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  padding: 0 80px 40px;
+}
+.header__paragraph {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  margin: 0;
+}
+.header__adress {
+  display: flex;
+  align-items: end;
+  color: #838383;
+}
